@@ -53,7 +53,7 @@ const MainRoot = () => {
 
           <div className="h-[40vh] flex flex-col justify-center">
             <h2>
-              Undergruppe av Root
+              Undergruppe av Rootsassasdasdsd
             </h2>
             <p>
               Vi ønsker å samles minst syfbssj dsiofios odspfkdsopjfisfds
