@@ -27,7 +27,7 @@ const MainRoot = () => {
                     <polyline points="9 22 9 12 15 12 15 22"></polyline>
                   </svg>
                 </div>
-                <span>Home</span>
+                <span>ccccccccc</span>
               </li>
               <li className="flex items-center gap-2">
                 <div>
