@@ -13,7 +13,7 @@ const MainRoot = () => {
           <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,400;0,600;0,700;1,700&family=Poppins:wght@400;600;700&display=swap" />
         <title>{"<PIN/>"}</title>
        </Head>
-      <header className="w-[95%] mt-2 rounded-3xl fixed left-1/2 transform -translate-x-1/2 border-l-2 border-t-2 border-gray-600 border-opacity-15 shadow-[15px_20px_0px_0px_rgba(0,0,0,0.1)] h-[12vh] bg-sky-500 px-6 flex items-center text-white">
+      <header className="w-[95%] mt-2 rounded-3xl fixed left-1/2 transform -translate-x-1/2 border-l-2 border-t-2 border-gray-600 border-opacity-15 shadow-[15px_20px_0px_0px_rgba(0,0,0,0.1)] h-[12vh] bg-sky-800 px-6 flex items-center text-white">
         <section className="w-1/2">
           <h1 className="text-white text-6xl">{"<PIN/>"}</h1>
         </section>
