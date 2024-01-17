@@ -49,7 +49,7 @@ const MainRoot = () => {
         </section>
       </header>
       <Hero />
-      <section className="h-screen pt-[12%] bg-sky-700 mt-[-10%]">
+      <section className="h-screen bg-sky-700 mt-[-10%]">
 
           <div className="h-[40vh] flex flex-col justify-center items-center">
             <h2>
