@@ -49,9 +49,9 @@ const MainRoot = () => {
         </section>
       </header>
       <Hero />
-      <section className="h-screen bg-sky-700 mt-[-10%]">
+      <section className="h-screen pt-[12%] bg-sky-700 mt-[-10%]">
 
-          <div className="h-[50vh] flex flex-col justify-center items-center">
+          <div className="h-[40vh] flex flex-col justify-center items-center">
             <h2>
               Undergruppe av Rootsassasdasdsd
             </h2>
@@ -60,7 +60,7 @@ const MainRoot = () => {
             </p>
           </div>
 
-          <div className="h-[50vh] flex gap-[3%] justify-center items-center ">
+          <div className="h-[60vh] flex gap-[3%] justify-center items-center ">
 
             <div className="h-[40%] w-[25%] flex flex-col items-center border border-solid rounded-3xl p-6">
               <h2>
