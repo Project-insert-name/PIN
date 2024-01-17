@@ -27,7 +27,7 @@ const MainRoot = () => {
                     <polyline points="9 22 9 12 15 12 15 22"></polyline>
                   </svg>
                 </div>
-                <span>ccccccccc</span>
+                <span>Home</span>
               </li>
               <li className="flex items-center gap-2">
                 <div>
@@ -51,7 +51,7 @@ const MainRoot = () => {
       <Hero />
       <section className="h-screen bg-sky-700 mt-[-10%]">
 
-          <div className="h-[40vh] flex flex-col justify-center items-center">
+          <div className="h-[50vh] flex flex-col justify-center items-center">
             <h2>
               Undergruppe av Rootsassasdasdsd
             </h2>
@@ -60,10 +60,10 @@ const MainRoot = () => {
             </p>
           </div>
 
-          <div className="h-[60vh] flex gap-[3%] justify-center items-center ">
+          <div className="h-[50vh] flex gap-[3%] justify-center items-center ">
 
-            <div className="h-[40%] w-[25%] flex flex-col items-center border border-solid rounded-3xl p-6">
-              <h2>
+            <div className="h-[40%] w-[25%] flex flex-col justify-center items-center border border-solid rounded-3xl p-6">
+              <h2 className="text-2xl">
                 Lage prosjekt
               </h2>
               <p>
@@ -71,8 +71,8 @@ const MainRoot = () => {
               </p>
             </div>
 
-            <div className="h-[40%] w-[25%] flex flex-col items-center border border-solid rounded-3xl p-6 ">
-              <h2>
+            <div className="h-[40%] w-[25%] flex flex-col  justify-center items-center border border-solid rounded-3xl p-6 ">
+              <h2 className="text-2xl">
                 Lage prosjekt
               </h2>
               <p>
@@ -80,8 +80,8 @@ const MainRoot = () => {
               </p>
             </div> 
 
-            <div className="h-[40%] w-[25%] flex flex-col items-center border border-solid rounded-3xl p-6 ">
-              <h2>
+            <div className="h-[40%] w-[25%] flex flex-col  justify-center items-center border border-solid rounded-3xl p-6 ">
+              <h2 className="text-2xl">
                 Lage prosjekt
               </h2>
               <p>
