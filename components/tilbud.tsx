@@ -13,33 +13,33 @@ export default function Tilbud() {
 
       <div className = "w-1/2 h-[100%] flex flex-col justify-center pl-[7rem]">
 
-        <div>
+        <div className="opacity-40">
           <span>
             Hva du får
           </span>
         </div>
 
         <div>
-          <h2 className = "text-xl ">
-            Join nå og se for deg selv
+          <h2 className = "text-xl flex ">
+             <span> <span className="text-gradient-fro">Join</span> nå og se for deg selv </span>
           </h2>
         </div>
 
-        <div className = "text-xl pl-[0.25rem]">
-          <p className="">
+        <div className = "text-xl mb-5">
+          <p>
             Ingenting bedre enn å jobbe i grupper eller alene og få hjelp til personale prosjekter man holder på med!
           </p>
         </div>
 
         <div>
           <ul>
-            <li>
+            <li className="mb-4">
               Lære å kode ved å kode selv
             </li>
-            <li>
+            <li className="mb-4">
               Ha et trygt sted å gjøre feil
             </li>
-            <li>
+            <li className="mb-4">
               Helt gratis
             </li>
           </ul>
