@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Hero from "../components/hero";
+import Info from "../components/info";
+import Tilbud from "../components/tilbud";
 
 const MainRoot = () => {
   return (
@@ -49,53 +51,8 @@ const MainRoot = () => {
         </section>
       </header>
       <Hero />
-      <section className="h-screen bg-sky-700 mt-[-10%]">
-
-          <div className="h-[50vh] flex flex-col justify-center items-center">
-            <h2>
-              Undergruppe av Rootsassasdasdsd
-            </h2>
-            <p>
-              Vi ønsker å samles minst syfbssj dsiofios odspfkdsopjfisfds
-            </p>
-          </div>
-
-          <div className="h-[50vh] flex gap-[3%] justify-center items-center ">
-
-            <div className="h-[40%] w-[25%] flex flex-col justify-center items-center border border-solid rounded-3xl p-6">
-              <h2 className="text-2xl">
-                Lage prosjekt
-              </h2>
-              <p>
-                ijbhaiu balala blaaaa
-              </p>
-            </div>
-
-            <div className="h-[40%] w-[25%] flex flex-col  justify-center items-center border border-solid rounded-3xl p-6 ">
-              <h2 className="text-2xl">
-                Lage prosjekt
-              </h2>
-              <p>
-                ijbhaiu balala blaaaa
-              </p>
-            </div> 
-
-            <div className="h-[40%] w-[25%] flex flex-col  justify-center items-center border border-solid rounded-3xl p-6 ">
-              <h2 className="text-2xl">
-                Lage prosjekt
-              </h2>
-              <p>
-                ijbhaiu balala blaaaa
-              </p>
-            </div>
-            
-            
-
-          </div>
-
-          
-
-      </section>
+      <Info/>
+      <Tilbud/>
     </>
   );
 };
