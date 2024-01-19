@@ -20,8 +20,11 @@ export default function Tilbud() {
         </div>
 
         <div>
-          <h2 className = "text-xl flex ">
-             <span> <span className="bg-gradient-to-r from-amber-400 to-yellow-300 text-transparent bg-clip-text">Join</span> nå og se for deg selv </span>
+          <h2 className ="text-xl">
+             <span className="bg-gradient-to-r from-amber-400 to-yellow-300 text-transparent bg-clip-text">
+              Join
+              </span> 
+              {" nå og se for deg selv"}
           </h2>
         </div>
 
@@ -32,7 +35,7 @@ export default function Tilbud() {
         </div>
 
         <div>
-          <ul>
+          <ul className="tilbud">
             <li className="mb-4">
               Lære å kode ved å kode selv
             </li>
@@ -59,6 +62,3 @@ export default function Tilbud() {
   );
 
   };
-
-    
-    

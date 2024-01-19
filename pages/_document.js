@@ -1,4 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import {Providers} from "../app/providers";
+// import React from "react";
 
 export default function Document() {
   return (
@@ -16,8 +18,10 @@ export default function Document() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <body>
-        <Main />
-        <NextScript />
+        <Providers>
+          <Main />
+          <NextScript />
+        </Providers>
       </body>
     </Html>
   );

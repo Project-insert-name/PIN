@@ -5,3 +5,18 @@
 * {
     color: white;
 }
+
+.tilbud > li {
+    padding-left: 20px;
+    position: relative;
+}
+
+.tilbud > li::before {
+    content: '\2713';
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}

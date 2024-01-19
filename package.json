@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material-tailwind/html": "^2.2.2",
+    "@nextui-org/react": "^2.2.9",
     "@popperjs/core": "^2.11.6",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
     "caniuse-lite": "^1.0.30001543",
     "eslint": "8.31.0",
     "eslint-config-next": "^13.5.4",
+    "framer-motion": "^10.18.0",
     "next": "^13.5.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -22,6 +25,7 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "@types/react": "18.2.48",
     "autoprefixer": "^10.4.16",
     "css-loader": "^6.9.0",
     "next-compose-plugins": "^2.2.1",
