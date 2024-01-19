@@ -21,7 +21,7 @@ export default function Tilbud() {
 
         <div>
           <h2 className = "text-xl flex ">
-             <span> <span className="text-gradient-fro">Join</span> nå og se for deg selv </span>
+             <span> <span className="bg-gradient-to-r from-amber-400 to-yellow-300 text-transparent bg-clip-text">Join</span> nå og se for deg selv </span>
           </h2>
         </div>
 
