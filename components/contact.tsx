@@ -1,6 +1,6 @@
 export default function Info () {
     return (
-        <section className="h-screen bg-sky-700 ">
+        <section className="h-screen bg-sky-800 ">
 
         <div className="h-[50vh] flex flex-col justify-center items-center">
           <h2>

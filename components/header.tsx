@@ -18,16 +18,13 @@ export default function Header() {
             </li>
             <li className="flex items-center gap-2">
               <div>
-                <img src="/public/user/contact4.svg" alt="Contact icon" />
+                <img src="/user/contact4.svg" alt="Contact icon" />
               </div>
               <span>Contact</span>
             </li>
             <li className="bg-white bg-opacity-25 flex items-center gap-2 px-6 py-3 rounded-2xl">
               <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                  <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                </svg>
+                <img src="/user/discord.svg" alt="Discord icon" />
               </div>
               <span>Join</span>
             </li>

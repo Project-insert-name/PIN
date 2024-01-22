@@ -1,6 +1,6 @@
 export default function Info () {
     return (
-        <footer className="h-[10vh] bg-sky-800 flex justify-center items-center ">
+        <footer className="h-[10vh] bg-sky-900 flex justify-center items-center ">
 
             <div className="w-1/3 flex justify-center">
                 <nav>
