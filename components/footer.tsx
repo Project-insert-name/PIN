@@ -12,7 +12,7 @@ export default function Info () {
             </div>
 
             <div className="w-1/3 flex justify-center">
-                Copyright 2024
+                Copyright © 2024
             </div>
 
             <div className="w-1/3 flex justify-center">
