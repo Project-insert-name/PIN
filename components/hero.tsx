@@ -28,7 +28,7 @@ const Hero = () => {
 
 
         <div className = "h-[100%] w-1/2 flex items-center justify-end pr-8">
-          <img src="/public/user/coding.png" alt="Coding illustrasion"/>
+          <img src="/user/coding.png" alt="Coding illustrasion"/>
         </div>
 
       </section>

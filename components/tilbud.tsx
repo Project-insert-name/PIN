@@ -5,10 +5,7 @@ export default function Tilbud() {
     <section className = "flex h-screen bg-sky-700 pt-[8%]">
 
       <div className = "h-full w-1/2 flex items-center justify-center ml-20 pr-8">
-        <div className="h-[350px] w-[55%] bg-white">
-
-        </div>
-        {/* <img src="/public/user/gruop-coding.png" alt="Coding illustrasion"/> */}
+         <img src="/user/group-coding.png" alt="Coding illustrasion"/> 
       </div>
 
       <div className = "w-1/2 h-[100%] flex flex-col justify-center pl-[7rem]">

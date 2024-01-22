@@ -4,6 +4,8 @@ import Hero from "../components/hero";
 import Info from "../components/info";
 import Tilbud from "../components/tilbud";
 import FAQ from "../components/faq";
+import Contact from "../components/contact";
+
 
 const MainRoot = () => {
   
@@ -17,6 +19,7 @@ const MainRoot = () => {
       <Info/>
       <Tilbud/>
       <FAQ/>
+      <Contact/>
     </>
   );
 };
