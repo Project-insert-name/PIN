@@ -19,7 +19,7 @@ export default function FAQ() {
     <section className="h-screen w-full bg-sky-800 flex items-center pt-[12vh]">
         <div className="w-[40%] p-12">
           <h2 
-            className="h-[6vh] w-max text-3xl bg-gradient-to-r from-cyan-200 to-blue-300 text-transparent bg-clip-text">
+            className="h-[6vh] w-max text-3xl bg-gradient-to-r from-amber-200 to-cyan-300 text-transparent bg-clip-text">
               Spørsmål
           </h2>
           <p>Finner du ikke svar her, send oss gjerne melding på Discord/Facebook/osv.</p>

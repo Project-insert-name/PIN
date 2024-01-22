@@ -5,6 +5,7 @@ import Info from "../components/info";
 import Tilbud from "../components/tilbud";
 import FAQ from "../components/faq";
 import Contact from "../components/contact";
+import Footer from "../components/footer";
 
 
 const MainRoot = () => {
@@ -20,6 +21,7 @@ const MainRoot = () => {
       <Tilbud/>
       <FAQ/>
       <Contact/>
+      <Footer/>
     </>
   );
 };

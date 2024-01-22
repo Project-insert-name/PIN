@@ -13,9 +13,9 @@ export default function Info () {
         
         <div className="h-[50vh] flex gap-[3%] justify-center items-center ">
         
-          <div className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 h-[25%] w-[22%] flex justify-center items-center border-2 border-amber-300 border-opacity-80 border-solid rounded-xl">
+          <div className="bg-gradient-to-r from-amber-200 to-cyan-300 h-[25%] w-[22%] flex justify-center items-center rounded-xl">
 
-          <div className="flex h-full w-full items-center justify-center bg-sky-700 back rounded-xl">
+          <div className="flex h-[95%] w-[98%] items-center justify-center bg-sky-700 back rounded-xl">
 
             <div className="w-[35%]">
               <img className="m-auto" src="/user/browser.svg" alt="bildet av discord" />
