@@ -17,7 +17,7 @@ export default function Document() {
 
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
-      <body>
+      <body className="relative overflow-x-hidden">
         <Providers>
           <Main />
           <NextScript />
