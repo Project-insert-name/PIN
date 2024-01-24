@@ -7,26 +7,26 @@ export default function Header() {
       <section className="w-1/2">
         <nav>
           <ul className="flex justify-end gap-4">
-            <li className="flex items-center gap-2">
+            <li className="flex items-center gap-1">
               <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                  <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                </svg>
+                <img src="/user/home.svg" alt="Home icon" />
               </div>
               <span>Home</span>
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex items-center gap-1">
               <div>
-                <img src="/user/contact4.svg" alt="Contact icon" />
+                <img src="/user/contact.svg" alt="Contact icon" />
               </div>
               <span>Contact</span>
             </li>
-            <li className="bg-white bg-opacity-25 flex items-center gap-2 px-6 py-3 rounded-2xl">
-              <div>
-                <img src="/user/discord.svg" alt="Discord icon" />
-              </div>
-              <span>Join</span>
+            <li>
+              <button  className="group bg-white bg-opacity-25 hover:bg-sky-300 duration-200 flex items-center gap-1 px-6 py-3 rounded-2xl">
+                <div>
+                  <img src="/user/discord.svg" alt="Discord icon" />
+                </div>
+                <span className="group-hover:text-blue-950">Join</span>
+              </button>
+           
             </li>
           </ul>
         </nav>
