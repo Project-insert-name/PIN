@@ -23,6 +23,7 @@ export default function Document() {
           <NextScript />
         </Providers>
       </body>
+      <script src="../scripts/index.js"></script>
     </Html>
   );
 }
