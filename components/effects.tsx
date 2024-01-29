@@ -41,9 +41,9 @@ export default function Effects() {
                     </defs>
                 </svg>
             </div>
-            <div>
+            <div className="">
                 <svg 
-                    className="w-full absolute bottom-[0%] rotate-90" width="1610" height="1852" viewBox="0 0 1610 1852" fill="none"
+                    className="w-full absolute bottom-0" width="1610" height="1852" viewBox="0 0 1610 1852" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.5" filter="url(#filter0_f_799_80)">
                         <ellipse cx="1346.5" cy="528" rx="1146.5" ry="1124" fill="url(#paint0_radial_799_80)" />

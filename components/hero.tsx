@@ -1,11 +1,11 @@
 const Hero = () => {
     return (
-        <section id="home" className = "flex flex-col-reverse md:flex-row h-[80vh] md:h-screen bg-sky-700 md:pt-[12%]">
+        <section id="home" className = "flex flex-col-reverse md:flex-row h-screen bg-sky-700 pt-[5%] md:pt-[12%]">
 
           <div className = "w-[95%] md:w-1/2 h-[45%] md:h-[100%] flex flex-col justify-center p-4 md:pl-[7rem]">
           <div>
             <h2 
-              className="w-max text-5xl md:text-6xl bg-gradient-to-r from-cyan-200 to-blue-300 text-transparent bg-clip-text">
+              className="w-max text-5xl md:text-6xl bg-gradient-to-r from-amber-200 to-cyan-300 text-transparent bg-clip-text">
                 Welkommen!
             </h2>
           </div>
@@ -24,9 +24,9 @@ const Hero = () => {
 
           </div>
 
-          <div className = "relative h-[35%] md:h-[100%] w-full md:w-1/2 flex items-center justify-center md:justify-end md:pr-8 ">
+          <div className = "relative h-[40%] md:h-[100%] w-full md:w-1/2 flex items-center justify-center md:justify-end md:pr-8 ">
             <img 
-              className="absolute z-10 h-full"
+              className="absolute z-10 h-full md:h-[unset]"
               src="/user/coding.png" alt="Coding illustrasion"/>
           </div>
 

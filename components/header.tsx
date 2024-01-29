@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header className="w-[95%] mt-2 rounded-3xl fixed z-20 left-1/2 transform -translate-x-1/2 border-l-2 border-t-2 border-sky-400 border-opacity-25 shadow-[15px_20px_0px_0px_rgba(0,0,0,0.1)] h-[12vh] bg-sky-700 px-6 flex items-center ">
       <section className="w-1/2">
-        <h1 className=" text-6xl">{"<PIN/>"}</h1>
+        <h1 className=" text-5xl bg-gradient-to-r from-amber-200 to-cyan-300 text-transparent bg-clip-text">{"<PIN/>"}</h1>
       </section>
       <section className="w-1/2 flex justify-end">
         <nav className="hidden md:block">

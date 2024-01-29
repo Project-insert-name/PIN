@@ -16,20 +16,20 @@ export default function FAQ() {
   };
 
   return (
-    <section id="contact" className="h-screen w-full bg-sky-700 flex items-center pt-[12vh]">
-        <div className="w-[40%] p-12">
+    <section id="contact" className="h-screen w-full bg-sky-700 md:flex items-center pt-[12vh]">
+        <div className="w-[90%] md:w-[40%] p-4 md:p-12">
           <h2 
             className="h-[6vh] w-max text-3xl bg-gradient-to-r from-amber-200 to-cyan-300 text-transparent bg-clip-text">
               Spørsmål
           </h2>
           <p>Finner du ikke svar her, send oss gjerne melding på Discord/Facebook/osv.</p>
-          <div className="h-[20vh] relative">
+          <div className="h-[10vh] md:h-[20vh] relative">
             <button className="absolute bottom-0 z-10 border-2 border-sky-400 border-opacity-25 px-6 py-3 rounded-3xl hover:bg-sky-400 hover:text-sky-950 duration-150">
               Send melding
             </button>
           </div>
         </div>
-        <div className="w-1/2 h-1/2 flex p-12 relative">
+        <div className="w-[90%] md:w-1/2 h-1/2 flex p-4 pt-12 md:p-12 relative">
         <Accordion 
           className="absolute z-10"
           itemClasses={itemClasses}>
