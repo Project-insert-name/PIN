@@ -14,8 +14,8 @@ export default function Header() {
       <section className="w-1/2">
         <h1 className=" text-6xl">{"<PIN/>"}</h1>
       </section>
-      <section className="w-1/2">
-        <nav>
+      <section className="w-1/2 flex justify-end">
+        <nav className="hidden md:block">
           <ul className="flex items-center justify-end gap-4">
             <li >
               <button className="flex items-center gap-1" onClick={handleHomeClick}>
@@ -26,14 +26,12 @@ export default function Header() {
                 </button>
               </li>     
             <li >
-              <Link href="">
-                <button className="flex items-center gap-1" onClick={handleContactClick}>
-                  <div>
-                    <img src="/user/contact.svg" alt="Contact icon" />
-                  </div>
-                  <span>Contact</span>
-                </button>
-              </Link>
+              <button className="flex items-center gap-1" onClick={handleContactClick}>
+                <div>
+                  <img src="/user/contact.svg" alt="Contact icon" />
+                </div>
+                <span>Contact</span>
+              </button>
             </li>
             <li>
               <Link href="https://discord.gg/4jUpchPM" target="blank">
@@ -47,6 +45,15 @@ export default function Header() {
             </li>
           </ul>
         </nav>
+        <section className="">
+            <div id="menuToggle" className="lg:hidden ">
+                <div className="w-12 h-2 mb-2 bg-white rounded-xl"></div>
+                <div className="w-12 h-2 mb-2 bg-white rounded-xl"></div>
+                <div className="w-12 h-2 mb-2 bg-white rounded-xl"></div>
+            </div>
+
+          
+        </section>
       </section>
     </header>
 )};

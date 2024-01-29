@@ -16,7 +16,7 @@ export default function FAQ() {
   };
 
   return (
-    <section  id="contact" className="h-screen w-full bg-sky-700 flex items-center pt-[12vh]">
+    <section id="contact" className="h-screen w-full bg-sky-700 flex items-center pt-[12vh]">
         <div className="w-[40%] p-12">
           <h2 
             className="h-[6vh] w-max text-3xl bg-gradient-to-r from-amber-200 to-cyan-300 text-transparent bg-clip-text">

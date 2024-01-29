@@ -18,7 +18,7 @@ export default function Document() {
         <title>{"<PIN/>"}</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
-      <body className="relative overflow-x-hidden">
+      <body className="relative w-full">
         <Providers>
           <Main />
           <NextScript />

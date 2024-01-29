@@ -2,13 +2,13 @@ export default function Tilbud() {
   return (
 
 
-    <section className = "flex h-screen bg-sky-700 pt-[8%]">
+    <section className = "md:flex h-screen bg-sky-700 pt-[8%]">
 
-      <div className = "h-full w-1/2 flex items-center justify-center ml-20 pr-8">
+      <div className = "h-[30%] md:h-full w-[90%] md:w-1/2 flex items-center justify-center m-auto md:ml-20 md:pr-8">
          <img src="/user/group-coding.png" alt="Coding illustrasion"/> 
       </div>
 
-      <div className = "w-1/2 h-[100%] flex flex-col justify-center pl-[7rem]">
+      <div className = "w-[90%] md:w-1/2 h-[100%] flex flex-col md:justify-center pl-8 pt-10 md:pt-0 md:pl-[7rem]">
 
         <div className="opacity-40">
           <span>
@@ -25,7 +25,7 @@ export default function Tilbud() {
           </h2>
         </div>
 
-        <div className = "text-xl mb-5">
+        <div className = "w-[90%] text-xl mb-5">
           <p>
             Ingenting bedre enn å jobbe i grupper eller alene og få hjelp til personale prosjekter man holder på med!
           </p>

@@ -1,9 +1,9 @@
 export default function Effects() {
     return (
-        <section>
+        <section className="w-full hidden md:block">
             <div>
                 <svg 
-                    className="absolute top-0" width="1610" height="1852" viewBox="0 0 1610 1852" fill="none"
+                    className="w-full absolute top-0" width="1610" height="1852" viewBox="0 0 1610 1852" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.5" filter="url(#filter0_f_799_80)">
                         <ellipse cx="1346.5" cy="528" rx="1146.5" ry="1124" fill="url(#paint0_radial_799_80)" />
@@ -24,7 +24,7 @@ export default function Effects() {
                 </svg>
             </div>
             <div>
-                <svg className="absolute top-[25%] left-0" width="1695" height="2105" viewBox="0 0 1695 2105" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-full absolute top-[25%] left-0" width="1695" height="2105" viewBox="0 0 1695 2105" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.3" filter="url(#filter0_f_792_77)">
                     <ellipse cx="238.5" cy="1052.5" rx="1256.5" ry="852.5" fill="url(#paint0_radial_792_77)"/>
                     </g>
@@ -43,7 +43,7 @@ export default function Effects() {
             </div>
             <div>
                 <svg 
-                    className="absolute bottom-[-1%] rotate-90" width="1610" height="1852" viewBox="0 0 1610 1852" fill="none"
+                    className="w-full absolute bottom-[0%] rotate-90" width="1610" height="1852" viewBox="0 0 1610 1852" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.5" filter="url(#filter0_f_799_80)">
                         <ellipse cx="1346.5" cy="528" rx="1146.5" ry="1124" fill="url(#paint0_radial_799_80)" />
