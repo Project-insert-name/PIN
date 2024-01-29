@@ -24,13 +24,15 @@ export default function FAQ() {
           </h2>
           <p>Finner du ikke svar her, send oss gjerne melding på Discord/Facebook/osv.</p>
           <div className="h-[20vh] relative">
-            <button className="absolute bottom-0 border-2 border-sky-400 border-opacity-25 px-6 py-3 rounded-3xl hover:bg-sky-400 hover:text-sky-950 duration-150">
+            <button className="absolute bottom-0 z-10 border-2 border-sky-400 border-opacity-25 px-6 py-3 rounded-3xl hover:bg-sky-400 hover:text-sky-950 duration-150">
               Send melding
             </button>
           </div>
         </div>
-        <div className="w-[60%] flex p-12">
-        <Accordion itemClasses={itemClasses}>
+        <div className="w-1/2 h-1/2 flex p-12 relative">
+        <Accordion 
+          className="absolute z-10"
+          itemClasses={itemClasses}>
           {accordionData.map((item) => (
             <AccordionItem
               key={item.key}

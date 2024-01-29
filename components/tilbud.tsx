@@ -46,8 +46,8 @@ export default function Tilbud() {
         </div>
 
 
-        <div className="flex items-center h-[20%]">
-          <button className="h-max w-max bg-sky-600 hover:bg-sky-200 px-6 py-3 rounded-2xl  hover:text-black duration-200">
+        <div className="relative flex items-center h-[20%]">
+          <button className="absolute z-10 h-max w-max bg-sky-600 hover:bg-sky-200 px-6 py-3 rounded-2xl  hover:text-black duration-200">
             Join Discord!
           </button>
         </div>
