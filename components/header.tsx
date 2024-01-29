@@ -9,7 +9,7 @@ export default function Header() {
       </section>
       <section className="w-1/2">
         <nav>
-          <ul className="flex justify-end gap-4">
+          <ul className="flex items-center justify-end gap-4">
             <li >
               <Link href="/">
               <button className="flex items-center gap-1">
