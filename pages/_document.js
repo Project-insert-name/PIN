@@ -15,6 +15,7 @@ export default function Document() {
           content="PIN, root, HVL, HVL data, HVL IT, PIN nettside"
         />
 
+        <title>{"<PIN/>"}</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <body className="relative overflow-x-hidden">
