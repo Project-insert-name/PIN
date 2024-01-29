@@ -16,8 +16,8 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="h-[20%] flex items-center mt-4">
-        <button className="h-max w-max bg-sky-600 hover:bg-sky-200 px-6 py-3 rounded-2xl hover:text-blue-950 duration-200">
+        <div className="relative h-[20%] flex items-center mt-4">
+        <button className="absolute z-10 h-max w-max bg-sky-600 hover:bg-sky-200 px-6 py-3 rounded-2xl hover:text-blue-950 duration-200">
           Join Discord!
         </button>
         </div>
@@ -27,8 +27,10 @@ const Hero = () => {
 
 
 
-        <div className = "h-[100%] w-1/2 flex items-center justify-end pr-8">
-          <img src="/user/coding.png" alt="Coding illustrasion"/>
+        <div className = "h-[100%] w-1/2 flex items-center justify-end pr-8 relative">
+          <img 
+            className="absolute z-10"
+            src="/user/coding.png" alt="Coding illustrasion"/>
         </div>
 
       </section>
