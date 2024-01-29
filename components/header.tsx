@@ -11,7 +11,7 @@ export default function Header() {
               <div>
                 <img src="/user/home.svg" alt="Home icon" />
               </div>
-              <span>Home</span>
+              <span>Homeeeeeeeee</span>
             </li>
             <li className="flex items-center gap-1">
               <div>
