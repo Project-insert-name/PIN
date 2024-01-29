@@ -13,9 +13,6 @@ const MainRoot = () => {
   
   return (
     <>
-      <Head>
-        <title>{"<PIN/>"}</title>
-      </Head>
       <Header/>
       <Hero />
       <Info/>
