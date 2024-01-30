@@ -9,7 +9,7 @@ const HamburgerMenu = () => {
   };
 
   return (
-    <div className={` ${isOpen ? "w-full h-screen" : ""}`}>
+    <div className={` ${isOpen ? "w-full h-screen" : ""} md:hidden`}>
       <div
         className={`hamburger-icon cursor-pointer ${isOpen ? 'open right-[6.5%] top-[35%] absolute z-30' : ''}`}
         onClick={toggleMenu}
