@@ -1,6 +1,7 @@
 
 import Link from "next/link";
 import {scrollToSection} from "../public/scripts/smoothScroll"
+import HamburgerMenu from "./hamburger-menu";
 
 export default function Header() {
   function handleHomeClick(){
@@ -45,15 +46,7 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <section className="">
-            <div id="menuToggle" className="lg:hidden ">
-                <div className="w-12 h-2 mb-2 bg-white rounded-xl"></div>
-                <div className="w-12 h-2 mb-2 bg-white rounded-xl"></div>
-                <div className="w-12 h-2 mb-2 bg-white rounded-xl"></div>
-            </div>
-
-          
-        </section>
+        <HamburgerMenu />
       </section>
     </header>
 )};
