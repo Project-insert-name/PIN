@@ -2,7 +2,7 @@ export default function Tilbud() {
   return (
 
 
-    <section className = "md:flex h-screen bg-sky-700 pt-[8%]">
+    <section id="tilbud" className = "md:flex h-screen bg-sky-700 pt-[8%]">
 
       <div className = "h-[30%] md:h-full w-[90%] md:w-1/2 flex items-center justify-center m-auto md:ml-20 md:pr-8">
          <img src="/user/group-coding.png" alt="Coding illustrasion"/> 

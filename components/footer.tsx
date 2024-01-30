@@ -1,4 +1,13 @@
+
+import {scrollToSection} from "../public/scripts/smoothScroll"
+
 export default function Info () {
+    function handleContactClick(){
+        scrollToSection("contact")
+      } 
+    function handleTilbudClick(){
+    scrollToSection("tilbud")
+    } 
     return (
         <footer className="h-[40vh] md:h-[10vh] w-full bg-sky-900">
                 
@@ -6,8 +15,13 @@ export default function Info () {
                 <div className="w-[40%] md:w-1/3 flex justify-center">
                     <nav>
                         <ul className="text-xl md:text-[unset] flex flex-col md:flex-row gap-4 md:gap-6 pl-5 md:pl-0">
+
+                        <button className="flex items-center gap-1" onClick={handleTilbudClick}>
                             <li> <span className="md:hidden">○</span> Om oss</li>
+                        </button>
+                        <button className="flex items-center gap-1" onClick={handleContactClick}>
                             <li> <span className="md:hidden">○</span> Kontakt oss</li>
+                        </button>
                         </ul>
                     </nav>
                 </div>
