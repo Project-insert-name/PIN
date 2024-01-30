@@ -1,6 +1,6 @@
 export default function Info () {
   return (
-      <section className="h-[70vh] md:h-[55vh] bg-sky-800 pb-[10vh]">
+      <section className="h-[70vh] md:h-[90vh] bg-sky-800">
         <div className="h-[50%] md:h-[60%] flex flex-col justify-center items-center">
           <h2 className="text-5xl bg-gradient-to-r from-amber-200 to-cyan-300 text-transparent bg-clip-text">
             Join nå!
@@ -9,7 +9,7 @@ export default function Info () {
             Les mer om Root eller join oss på Discord!
           </p>
         </div>
-        <div className="h-[45%] md:h-[20%] flex flex-col md:flex-row gap-[8%] md:gap-[3%] justify-center items-center ">
+        <div className="h-[45%] md:h-[100px] flex flex-col md:flex-row gap-[8%] md:gap-[3%] justify-center items-center ">
           <div className="h-[35%] md:h-[90%] w-[70%] md:w-[22%] flex justify-center items-center bg-gradient-to-r from-amber-200 to-cyan-300 rounded-xl">
 
           <div className="flex h-[95%] w-[98%] items-center justify-center bg-sky-700 back rounded-xl">
