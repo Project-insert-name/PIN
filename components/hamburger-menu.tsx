@@ -9,9 +9,9 @@ const HamburgerMenu = () => {
   };
 
   return (
-    <div className={` ${isOpen ? "w-full" : ""}`}>
+    <div className={` ${isOpen ? "w-full h-screen" : ""}`}>
       <div
-        className={`hamburger-icon cursor-pointer ${isOpen ? 'open right-[7.5%] top-[40%] absolute z-30' : ''}`}
+        className={`hamburger-icon cursor-pointer ${isOpen ? 'open right-[6.5%] top-[35%] absolute z-30' : ''}`}
         onClick={toggleMenu}
       >
         <div className="bar"></div>
@@ -19,11 +19,11 @@ const HamburgerMenu = () => {
         <div className="bar"></div>
       </div>
       {isOpen && (
-        <div className="absolute flex flex-col justify-center bg-sky-800 pl-12 menu fixed z-20 top-0 left-0 h-screen w-full border border-gray-300 shadow-md">
+        <div className="absolute flex flex-col justify-center bg-sky-800 pl-12 menu z-20 top-[-10%] left-[-5%] h-[110vh] w-[110%]">
           {/* Place your menu items here */}
           <Link href="/" className="block px-4 py-2 text-gray-200 text-3xl">Home</Link>
-          <Link href="/" className="block px-4 py-2 text-gray-200 text-3xl">Send request</Link>
-          <Link href="/" className="block px-4 py-2 text-gray-200 text-3xl">Contact</Link>
+          <Link href="/" className="block px-4 py-2 text-gray-200 text-3xl">Kontakt oss</Link>
+          <Link href="/" className="block px-4 py-2 text-gray-200 text-3xl">Join</Link>
         </div>
       )}
       <style jsx>{`
@@ -31,14 +31,15 @@ const HamburgerMenu = () => {
           display: flex;
           flex-direction: column;
           justify-content: space-between;
-          width: 30px;
-          height: 20px;
+          width: 2.5rem;
+          height: 1.75rem;
         }
 
         .bar {
           width: 30px;
-          height: 4px;
+          height: 8px;
           background-color: #f1f1f1;
+          border-radius: 20px;
         }
 
         .bar:nth-child(2) {
