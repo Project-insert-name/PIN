@@ -35,7 +35,7 @@ export default function Header() {
               </button>
             </li>
             <li>
-              <Link href="https://discord.gg/4jUpchPM" target="blank">
+              <Link href="https://discord.gg/4jUpchPM" target="_blank">
                 <button  className="group bg-white bg-opacity-25 hover:bg-sky-300 duration-200 flex items-center gap-1 px-6 py-3 rounded-2xl">
                   <div>
                     <img src="/user/discord.svg" alt="Discord icon" />

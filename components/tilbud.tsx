@@ -1,3 +1,5 @@
+
+import Link from "next/link";
 export default function Tilbud() {
   return (
 
@@ -47,9 +49,11 @@ export default function Tilbud() {
 
 
         <div className="relative flex items-center h-[20%]">
-          <button className="absolute z-10 h-max w-max bg-sky-600 hover:bg-sky-200 px-6 py-3 rounded-2xl  hover:text-black duration-200">
+        <Link className="absolute z-10 h-max w-max bg-sky-600 hover:bg-sky-200 px-6 py-3 rounded-2xl  hover:text-black duration-200" href="https://discord.gg/4jUpchPM" target="blank">
+          <button>
             Join Discord!
           </button>
+        </Link>
         </div>
 
 
