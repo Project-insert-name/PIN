@@ -4,7 +4,7 @@ export default function Tilbud() {
   return (
 
 
-    <section id="tilbud" className = "md:flex h-screen bg-sky-700 pt-[8%]">
+    <section id="tilbud" className = "relative md:flex h-screen bg-sky-700 pt-[8%]">
 
       <div className = "h-[30%] md:h-full w-[90%] md:w-1/2 flex items-center justify-center m-auto md:ml-20 md:pr-8">
          <img src="/user/group-coding.png" alt="Coding illustrasion"/> 
@@ -59,6 +59,24 @@ export default function Tilbud() {
 
       </div>
 
+      <div className="w-full absolute top-[25%] left-0 overflow-x-hidden">
+        <svg width="1695" height="2105" viewBox="0 0 1695 2105" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g opacity="0.3" filter="url(#filter0_f_792_77)">
+            <ellipse cx="238.5" cy="1052.5" rx="1256.5" ry="852.5" fill="url(#paint0_radial_792_77)"/>
+            </g>
+            <defs>
+            <filter id="filter0_f_792_77" x="-1218" y="0" width="2913" height="2105" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_792_77"/>
+            </filter>
+            <radialGradient id="paint0_radial_792_77" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(169.192 1041.54) rotate(84.916) scale(736.283 1080.95)">
+            <stop stop-color="#023450"/>
+            <stop offset="1" stop-color="#035E90" stop-opacity="0.03"/>
+            </radialGradient>
+            </defs>
+        </svg>
+       </div>
     </section>
   );
 

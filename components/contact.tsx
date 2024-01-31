@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Info () {
   return (
-      <section className="h-[70vh] md:h-[90vh] bg-sky-800">
+      <section className="relative h-[70vh] md:h-[90vh] bg-sky-800">
         <div className="h-[50%] md:h-[60%] flex flex-col justify-center items-center">
           <h2 className="text-5xl bg-gradient-to-r from-amber-200 to-cyan-300 text-transparent bg-clip-text">
             Join nå!
