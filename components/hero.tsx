@@ -1,3 +1,5 @@
+
+import Link from "next/link";
 const Hero = () => {
     return (
         <section id="home" className = "relative flex flex-col-reverse md:flex-row h-screen bg-sky-700 pt-[5%] md:pt-[12%]">
@@ -16,9 +18,11 @@ const Hero = () => {
           </div>
 
           <div className="relative h-[20%] flex items-center mt-4">
-          <button className="absolute z-10 h-max w-max bg-sky-600 hover:bg-sky-200 px-6 py-3 rounded-2xl hover:text-blue-950 duration-200">
-            Join Discord!
-          </button>
+          <Link className="absolute z-10 h-max w-max bg-sky-600 hover:bg-sky-200 px-6 py-3 rounded-2xl hover:text-blue-950 duration-200" href="https://discord.gg/4jUpchPM" target="_blank">
+            <button>
+              Join Discord!
+            </button>
+          </Link>
           </div>
 
 
