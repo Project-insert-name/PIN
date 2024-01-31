@@ -13,18 +13,18 @@ export default function Info () {
         <div className="h-[45%] md:h-[100px] flex flex-col md:flex-row gap-[8%] md:gap-[3%] justify-center items-center ">
           
           <div className="h-[35%] md:h-[90%] w-[70%] md:w-[22%] flex justify-center items-center bg-gradient-to-r from-amber-200 to-cyan-300 rounded-xl">
-          <Link className="w-full h-full p-[0.125rem]" href="https://discord.gg/4jUpchPM" target="_blank">
-            <button className="flex h-full w-full items-center justify-center bg-sky-700 back rounded-xl ">
+          <Link className="w-full h-full p-[0.125rem]" href="https://www.rootlinjeforening.no/arrangement" target="_blank">
+            <button className=" group flex h-full w-full items-center justify-center bg-sky-700 back hover:bg-sky-500 duration-200  rounded-xl ">
               
               <div className="w-[35%]">
                 <img className="m-auto" src="/user/browser.svg" alt="bildet av discord" />
               </div>
 
-              <div className="w-[65%]">
-                <h2 className="text-xs text-amber-300">
+              <div className=" group w-[65%] flex flex-col items-start justify-start">
+                <h2 className="group-hover:text-amber-200 text-xs text-amber-300">
                   Nettsiden til
                 </h2>
-                <p className="text-2xl text-amber-300">
+                <p className="group-hover:text-amber-200 text-2xl text-amber-300">
                   Root
                 </p>
               </div>
@@ -43,10 +43,10 @@ export default function Info () {
 
                 <div className="group w-[65%] flex flex-col items-start justify-start">
               
-                      <h2 className="group-hover:text-blue-950 text-xs">
+                      <h2 className="group-hover:text-cyan-300 text-xs">
                           Join oss på
                       </h2>
-                      <p className="group-hover:text-blue-950 text-2xl">
+                      <p className="group-hover:text-cyan-300  text-2xl">
                         Discord
                       </p>
                              
