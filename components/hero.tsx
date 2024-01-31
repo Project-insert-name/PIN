@@ -58,7 +58,7 @@ const Hero = () => {
             </svg>
           </div>
 
-          <div className="hidden md:block">
+          <div className="hidden">
           <div className="absolute w-6 h-6 rounded-full bg-white bg-opacity-60 top-[5%] md:top-[22%] left-[10%] md:left-[60%]"></div>
           <div className="absolute w-12 h-12 rounded-full bg-amber-200 top-[90%] md:top-[80%] left-[70%] md:left-[45%]"></div>
           <div className="absolute w-7 h-7 rounded-full bg-amber-300 top-[15%] md:top-[18%] left-[10%] md:left-[10%]"></div>

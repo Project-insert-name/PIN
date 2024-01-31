@@ -59,7 +59,7 @@ export default function Tilbud() {
 
       </div>
 
-      <div className="w-full absolute top-[25%] left-0 overflow-x-hidden">
+      <div className="hidden w-full absolute top-[25%] left-0 overflow-x-hidden">
         <svg width="1695" height="2105" viewBox="0 0 1695 2105" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.3" filter="url(#filter0_f_792_77)">
             <ellipse cx="238.5" cy="1052.5" rx="1256.5" ry="852.5" fill="url(#paint0_radial_792_77)"/>
