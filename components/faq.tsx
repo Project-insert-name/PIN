@@ -14,9 +14,9 @@ export default function FAQ() {
     base: "text-white",
     title: "text-white",
   };
-
+  
   return (
-    <section id="contact" className="h-screen w-full bg-sky-700 md:flex items-center pt-[12vh]">
+    <section id="contact" className="relative h-screen w-full bg-sky-700 md:flex items-center pt-[12vh]">
         <div className="w-[90%] md:w-[40%] p-4 md:p-12">
           <h2 
             className="h-[6vh] w-max text-3xl bg-gradient-to-r from-amber-200 to-cyan-300 text-transparent bg-clip-text">
@@ -43,6 +43,11 @@ export default function FAQ() {
             </AccordionItem>
           ))}
         </Accordion>
+        </div>
+        <div>
+          <div className="absolute w-6 h-6 rounded-full bg-amber-400 bg-opacity-60 top-[5%] md:top-[18%] left-[10%] md:left-[70%]"></div>
+          <div className="absolute w-12 h-12 rounded-full bg-white bg-opacity-60 top-[27%] left-[70%] md:left-[12%]"></div>
+          <div className="absolute w-8 h-8 rounded-full bg-blue-200 bg-opacity-60 top-[90%] md:top-[80%] left-[33%]"></div>
         </div>
       </section>
   )};
