@@ -24,7 +24,7 @@ export default function Info () {
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-amber-700 to-cyan-600 h-[30%] md:h-[40%] w-[80%] flex justify-center items-center rounded-xl">
+          <div className="bg-gradient-to-r from-amber-600 to-cyan-500 h-[30%] md:h-[40%] w-[80%] flex justify-center items-center rounded-xl">
             <div className="flex flex-col h-[95%] w-[98%] items-center justify-center bg-sky-700 back rounded-xl">
               <h2 className="text-2xl">
                 Lage prosjekt
