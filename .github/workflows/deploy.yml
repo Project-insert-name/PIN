@@ -32,4 +32,4 @@ jobs:
             docker pull ${{ secrets.DOCKERHUB_USERNAME }}/pin:latest
             docker stop pin || true
             docker rm pin || true
-            docker run -d --name pin -p 3003:3003 ${{ secrets.DOCKERHUB_USERNAME }}/pin:latest
+            docker run -d --name pin --restart=unless-stopped -p 3003:3003 ${{ secrets.DOCKERHUB_USERNAME }}/pin:latest
